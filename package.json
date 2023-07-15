@@ -7,12 +7,14 @@
   },
   "engineStrict": true,
   "scripts": {
+    "next": "next",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001516",
     "graphql": "^15.6.1",
     "graphql-request": "^3.5.0",
     "html-react-parser": "^1.4.0",
